@@ -1,4 +1,4 @@
-print("Hello")
+#Calculator Program
 class Calculator:
     def __init__(self, a: float, b: float, operation: str):
         self.a = a
@@ -19,7 +19,7 @@ class Calculator:
         else:
             raise ValueError(f"Unsupported operation '{self.operation}'. Supported operations: add, subtract, multiply, divide")
 
-# Example usage
+# Example
 if __name__ == "__main__":
     try:
         a = float(input("Enter first number (a): "))
